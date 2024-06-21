@@ -65,7 +65,7 @@ def log_replaced_collections(replaced_collections):
         logger.info("No collections were replaced.")
 
 # Directory where the date-wise folders are located
-data_directory = 'D:/project_python/FTP/working/Back_End/server/ftp/'
+data_directory = 'D:/project_python/FTP/working/server/ftp/'
 
 # List to keep track of replaced collections
 replaced_collections = []
