@@ -3,8 +3,8 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
 
 LOGIN_ID = "RMS"
-PASSWORD = "Growthsec@12345"
-SECRET_KEY = "XE97uRmS1ALYxDtRHM4AmrSqrSF1ZW45V3vf2FscIQ0="
+PASSWORD = "Key"
+SECRET_KEY = "Key"
 
 # Convert password to bytes
 password_bytes = PASSWORD.encode('utf-8')
