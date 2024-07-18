@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // MongoDB connection setup
-const mongoURL = "mongodb+srv://growthsec:growthsec123@cluster0.thwyyfm.mongodb.net/";
+const mongoURL = "mongodb+srv://<username>:<password>@cluster0.thwyyfm.mongodb.net/";
 mongoose.connect(mongoURL, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Function to sanitize collection names for MongoDB
